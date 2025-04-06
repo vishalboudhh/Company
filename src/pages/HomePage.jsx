@@ -42,56 +42,61 @@ const HomePage = () => {
       </motion.section>
 
       {/* Company Overview */}
-      <h1 className="text-center text-blue-500 text-4xl font-bold p-4">Company Overview</h1>
-      <motion.section
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ amount: 0.3 }}
-        variants={scrollVariant}
-        className="flex flex-col md:flex-row justify-between items-center min-h-screen bg-gradient-to-r from-zinc-950 to-gray-800 py-14"
-      >
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-items-center max-w-6xl mx-auto">
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            className="bg-zinc-900 flex flex-col items-center justify-center text-white space-y-4 max-w-lg border-2 border-blue-400 rounded-lg p-5 transition-all duration-300 hover:shadow-[0_10px_15px_rgba(59,130,246,0.5)]"
-          >
-            <h1 className="text-4xl font-semibold">😀 About LearnSphere</h1>
-            <h3 className="text-justify">
-              At LearnSphere, we believe that AI & Data Science are shaping the future. Our goal is to provide accessible, high-quality, and industry-relevant education to aspiring data professionals.
-            </h3>
-          </motion.div>
+<h1 className="text-center text-blue-500 text-4xl font-bold p-4">Company Overview</h1>
+<motion.section
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ amount: 0.3 }}
+  variants={scrollVariant}
+  className="flex flex-col md:flex-row justify-between items-center min-h-screen bg-gradient-to-r from-zinc-950 to-gray-800 py-14 px-4 sm:px-6 md:px-10"
+>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-items-center max-w-6xl mx-auto w-full">
+    {/* About LearnSphere */}
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      className="bg-zinc-900 flex flex-col items-center justify-center text-white space-y-4 w-full border-2 border-blue-400 rounded-lg p-5 transition-all duration-300 hover:shadow-[0_10px_15px_rgba(59,130,246,0.5)]"
+    >
+      <h1 className="text-4xl font-semibold">😀 About LearnSphere</h1>
+      <h3 className="text-justify">
+        At LearnSphere, we believe that AI & Data Science are shaping the future. Our goal is to provide accessible, high-quality, and industry-relevant education to aspiring data professionals.
+      </h3>
+    </motion.div>
 
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            className="bg-zinc-900 flex flex-col items-center justify-center text-white space-y-4 max-w-lg border-2 border-blue-400 rounded-lg p-5 transition-all duration-300 hover:shadow-[0_10px_15px_rgba(59,130,246,0.5)]"
-          >
-            <h1 className="text-4xl font-semibold">🎯 Our Mission</h1>
-            <h3 className="text-justify">
-              To democratize AI education by offering world-class training, ensuring that every learner can master data science skills and land high-paying jobs.
-            </h3>
-          </motion.div>
+    {/* Our Mission */}
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      className="bg-zinc-900 flex flex-col items-center justify-center text-white space-y-4 w-full border-2 border-blue-400 rounded-lg p-5 transition-all duration-300 hover:shadow-[0_10px_15px_rgba(59,130,246,0.5)]"
+    >
+      <h1 className="text-4xl font-semibold">🎯 Our Mission</h1>
+      <h3 className="text-justify">
+        To democratize AI education by offering world-class training, ensuring that every learner can master data science skills and land high-paying jobs.
+      </h3>
+    </motion.div>
 
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            className="bg-zinc-900 flex flex-col items-center justify-center text-white space-y-4 max-w-lg border-2 border-blue-400 rounded-lg p-5 transition-all duration-300 hover:shadow-[0_10px_15px_rgba(59,130,246,0.5)]"
-          >
-            <h1 className="text-4xl font-semibold">👁 Our Vision</h1>
-            <h3 className="text-justify">
-              To become the #1 AI & Data Science training institute globally, producing highly skilled professionals who drive innovation.
-            </h3>
-          </motion.div>
+    {/* Our Vision */}
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      className="bg-zinc-900 flex flex-col items-center justify-center text-white space-y-4 w-full border-2 border-blue-400 rounded-lg p-5 transition-all duration-300 hover:shadow-[0_10px_15px_rgba(59,130,246,0.5)]"
+    >
+      <h1 className="text-4xl font-semibold">👁 Our Vision</h1>
+      <h3 className="text-justify">
+        To become the #1 AI & Data Science training institute globally, producing highly skilled professionals who drive innovation.
+      </h3>
+    </motion.div>
 
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            className="bg-zinc-900 flex flex-col items-center justify-center text-white space-y-4 max-w-lg border-2 border-blue-400 rounded-lg p-5 transition-all duration-300 hover:shadow-[0_10px_15px_rgba(59,130,246,0.5)]"
-          >
-            <h1 className="text-4xl font-semibold">👨‍🏫 Who We Are</h1>
-            <h3 className="text-justify">
-              We are a team of AI experts, data scientists, and educators dedicated to helping students transition into successful AI careers.
-            </h3>
-          </motion.div>
-        </div>
-      </motion.section>
+    {/* Who We Are */}
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      className="bg-zinc-900 flex flex-col items-center justify-center text-white space-y-4 w-full border-2 border-blue-400 rounded-lg p-5 transition-all duration-300 hover:shadow-[0_10px_15px_rgba(59,130,246,0.5)]"
+    >
+      <h1 className="text-4xl font-semibold">👨‍🏫 Who We Are</h1>
+      <h3 className="text-justify">
+        We are a team of AI experts, data scientists, and educators dedicated to helping students transition into successful AI careers.
+      </h3>
+    </motion.div>
+  </div>
+</motion.section>
+
 
       {/* Course Description */}
       <h1 className="text-center text-blue-500 text-4xl font-bold p-4">Course Description</h1>
