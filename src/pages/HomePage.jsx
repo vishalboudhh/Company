@@ -21,7 +21,7 @@ const HomePage = () => {
         className="pt-24 flex flex-col lg:flex-row justify-between items-center min-h-screen bg-gradient-to-r from-gray-800 to-zinc-950 px-6 lg:px-10 py-10 space-y-10 lg:space-y-0"
       >
         <div className="flex flex-col items-start justify-center text-white space-y-4 max-w-lg mb-8 md:mb-0">
-          <h1 className="text-blue-400 text-xl font-bold text-justify">
+          <h1 className="text-blue-400 text-xl font-bold ">
             Welcome to LearnSphere – Your Gateway to AI & Data Science
           </h1>
           <h3 className="text-3xl font-bold">
