@@ -1,0 +1,26 @@
+.messages{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+
+}
+
+.messages .userMsg{
+    clear: both;
+    background-color: rgb(47, 46, 46);
+    padding: 15px;
+    border-radius: 30px;
+    max-width: 60vh;
+    /* min-width: 20vh; */
+    align-self: flex-end;
+}
+
+.messages .responseMsg{
+    clear: both;
+    background-color: rgb(47, 46, 46);
+    padding: 15px;
+    border-radius: 30px;
+    max-width: 60vh;
+    /* min-width: 20vh; */
+    align-self: flex-start;
+}
